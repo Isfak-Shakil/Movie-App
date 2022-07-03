@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="3dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:src="@drawable/avatar"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="256dp"/>
+    <TextView
+        android:id="@+id/title_Tv"
+        android:layout_width="264dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="16dp"
+        android:text="title"
+        android:textStyle="bold"
+        android:paddingLeft="4dp"
+        />
+    <TextView
+        android:id="@+id/rating_Tv"
+        android:layout_width="264dp"
+        android:layout_height="22dp"
+        android:text="Rating"
+        android:paddingLeft="4dp"/>
+    <TextView
+        android:id="@+id/releaseDate_Tv"
+        android:layout_width="264dp"
+        android:layout_height="22dp"
+       android:text="Release Date"
+        android:paddingLeft="4dp"/>
+
+</LinearLayout>
